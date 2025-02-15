@@ -1,4 +1,6 @@
+add_library("unix-ffi", "$(MPY_LIB_DIR)/unix-ffi")
 require("mip-cmdline")
+require("ssl")
 
 freeze('$(MPY_DIR)/lib/lv_bindings/driver/linux', 'evdev.py')
 freeze('$(MPY_DIR)/lib/lv_bindings/driver/linux', 'lv_timer.py')
