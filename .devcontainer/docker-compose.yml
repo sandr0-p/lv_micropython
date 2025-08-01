@@ -1,0 +1,8 @@
+services:
+  development:
+    build:
+      context: .
+    working_dir: /development
+    volumes:
+      - "..:/development"
+    command: sleep infinity

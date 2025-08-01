@@ -1,0 +1,22 @@
+{
+  "name": "LVGL",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "development",
+  "workspaceFolder": "/development",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "foxundermoon.shell-format",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "Gruntfuggly.todo-tree",
+        "jgclark.vscode-todo-highlight",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.makefile-tools"
+      ],
+      "settings": {}
+    }
+  },
+  "shutdownAction": "stopCompose"
+}
